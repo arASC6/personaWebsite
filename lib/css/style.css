@@ -1,0 +1,84 @@
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 72px;
+    
+}     
+.jumbotron{
+    border-radius: 15px;
+    height: 600px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    background-image: url("http://hdqwalls.com/wallpapers/small-memory-lp.jpg");
+    background-size: cover;
+    color: white;
+    margin-top: 70px;
+    height: 510px;
+}
+#myWork {
+    margin: auto;
+    bottom: 200px;
+    position: absolute;
+   
+}
+
+
+nav {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+button{
+    margin: 10px
+}
+body{ 
+    background-color: black;
+    color: black;
+}
+ 
+} 
+#aboutMe {
+    color: black;
+    margin-top:50px;
+}
+.jumbotron{
+    text-align: center;
+    
+    background-image: url("images/jumboImg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media(max-width: 1030px){
+    #myWork {
+        margin: auto;
+        bottom: 150px;
+        position: absolute;
+       
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+       
+        align-items: flex-end
+    }
+}
+@media(max-width: 530px){
+    #myWork {
+        margin: auto;
+        bottom: 150px;
+        position: absolute;
+    
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: flex-end
+    }
+}
